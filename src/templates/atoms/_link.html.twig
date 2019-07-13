@@ -1,0 +1,9 @@
+<li class="{{ linkClass }}">
+  <a href={{ linkHref }}>
+    {% if isIcon %}
+      <img class='link-icon' src='{{ linkName }}' />
+    {% else %}
+      {{ linkName }}
+    {% endif %}
+  </a>
+</li>

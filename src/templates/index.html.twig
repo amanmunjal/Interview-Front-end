@@ -1,12 +1,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Axelerant: Interview Frontend</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h3>Welcome</h3>
-    {% include "_button.html.twig" %}
+    {% include './blocks/_header.html.twig' %}
+    {% include './blocks/_hero.html.twig' %}
+    {% include './blocks/_map.html.twig' %}
+    {% include './blocks/_testimonials.html.twig' %}
+    {% include './blocks/_contact.html.twig' %}
+    {% include './blocks/_footer.html.twig' %}
 
     <script src="main.js"></script>
 </body>

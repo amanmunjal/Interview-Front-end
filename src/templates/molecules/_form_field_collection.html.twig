@@ -1,0 +1,14 @@
+<div class='text-fields-container'>
+  {% for field in fields %}
+    {% set inputClass = field[0] %}
+    {% set inputType = field[1] %}
+    {% set inputPlaceholder = field[2] %}
+
+    {% include '../atoms/_input_field.html.twig' %}
+  {% endfor %}
+
+  {% set placeholder = 'Message in brief' %}
+  {% set rows = 6 %}
+  {% set cols = 70 %}
+  {% include '../atoms/_textarea.html.twig' %}
+</div>

@@ -1,0 +1,20 @@
+<div class='map-container'>
+  {% set headContainer = 'map-heading' %}
+  {% set headTextClass = 'black-text' %}
+  {% set headText = 'Mauris if bibendum est. Proin dapibus sollicitudin iaculis,
+   Maecenas condimentum maximus laoreet.'
+  %}
+  {% set headSubTextClass = 'black-text' %}
+  {% set headSubText = 'In maximus euismod egestas. Fusce tincidunt posuere est
+    non elementum. Vivamus tincidunt eleifend nisl et gravida. Aenean in lorem
+    ultrices, pellentesque augue eu, mattis est. Praesent sed volutpat nibh.
+    Morbi faucibus tortor sed neque valputate hendrerit. Sed aliquam mattis
+    purus eleifend consectetur. Nulla mollis non enim non tempus.'
+  %}
+
+  {% include '../atoms/_heading.html.twig' %}
+
+  {% set imgClass = 'map-img' %}
+  {% set imgSrc = '../images/map.png' %}
+  {% include '../atoms/_image.html.twig' %}
+</div>

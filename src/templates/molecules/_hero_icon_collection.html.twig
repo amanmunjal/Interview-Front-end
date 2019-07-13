@@ -1,0 +1,10 @@
+<div class='{{ ulClass }}'>
+  {% for icon in icons %}
+    {% set iconDiv = icon[0] %}
+    {% set iconClass = icon[1] %}
+    {% set iconImg = icon[2] %}
+    {% set iconText = icon[3] %}
+
+    {% include '../atoms/_icon.html.twig' %}
+  {% endfor %}
+</div>

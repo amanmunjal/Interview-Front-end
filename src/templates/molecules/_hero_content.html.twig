@@ -1,0 +1,14 @@
+{% set headContainer = 'hero-heading' %}
+{% set headTextClass = 'white-text text-center' %}
+{% set headText = 'Integer bibendum sit amet arcu vel egestas.' %}
+
+{% include '../atoms/_heading.html.twig' %}
+
+{% set icons = [
+  ['icon-block', 'icon-red', '../../images/staff-icon.png', 'Service Name'],
+  ['icon-block', 'icon-red', '../../images/stock-icon.png', 'Service Name'],
+  ['icon-block', 'icon-red', '../../images/folder-icon.png', 'Service Name']
+] %}
+{% set ulClass = 'hero-icon-list' %}
+
+{% include './_hero_icon_collection.html.twig' %}

@@ -1,0 +1,10 @@
+<ul class={{ ulClass }}>
+  {% for link in links %}
+    {% set linkClass = link[0] %}
+    {% set linkHref = link[1] %}
+    {% set linkName = link[2] %}
+    {% set isIcon = link[3] %}
+
+    {% include '../atoms/_link.html.twig' %}
+  {% endfor %}
+</ul>

@@ -1,0 +1,14 @@
+.testimonial-quote-list {
+  clear: both;
+  overflow: hidden;
+  .quote-block {
+    float: left;
+    width: 33%;
+    @media (max-width: 767px) {
+      width: 100%;
+      &.wb-view {
+        display: none;
+      }
+    }
+  }
+}

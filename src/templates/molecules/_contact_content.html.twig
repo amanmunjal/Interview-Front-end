@@ -1,0 +1,19 @@
+{% set headContainer = 'hero-heading' %}
+{% set headTextClass = 'white-text text-center' %}
+{% set headText = 'Convinced To Work With Us?' %}
+{% set headSubTextClass = 'white-text text-center' %}
+{% set headSubText = 'Company has helped agencies keep their promises to clients since 2005.' %}
+
+{% include '../atoms/_heading.html.twig' %}
+
+{% set fields = [
+  ['text-field-style', 'text', 'Full Name'],
+  ['text-field-style', 'email', 'Email Address'],
+  ['text-field-style field-last', 'phone', 'Phone Number']
+] %}
+{% include './_form_field_collection.html.twig' %}
+
+<div class='text-center'>
+  {% set buttonName = 'Submit' %}
+  {% include '../atoms/_button.html.twig' %}
+</div>

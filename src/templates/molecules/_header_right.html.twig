@@ -1,0 +1,9 @@
+<div class='menu right'>
+  {% set links = [['nav-link active', '/about', 'About'], ['nav-link', '/services', 'Services'], ['nav-link', '/solutions', 'Solutions'], ['nav-link last-item', '/blog', 'Blog']] %}
+  {% set ulClass = 'menu-list' %}
+  {% include './_links_collection.html.twig' %}
+
+  {% set buttonName = 'Get In Touch' %}
+  {% set buttonIconSrc = '../../images/get-in-touch-icon.png' %}
+  {% include '../atoms/_button.html.twig' %}
+</div>

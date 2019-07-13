@@ -1,0 +1,15 @@
+.logo {
+  color: $white;
+  margin: 26px 0px;
+  font-size: 16px;
+  float: left;
+  @media (max-width: 767px) {
+    float: none;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0px;
+  }
+  span {
+    color: $red;
+  }
+}

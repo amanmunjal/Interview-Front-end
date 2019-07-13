@@ -1,0 +1,11 @@
+.button {
+  background: $red;
+  padding: 8px 25px;
+  border-radius: 20px;
+  color: $white;
+  border-color: transparent;
+  margin-top: 15px;
+  .btn-icon {
+    margin: 5px 0px -3px;
+  }
+}

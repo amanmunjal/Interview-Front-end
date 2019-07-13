@@ -1,0 +1,16 @@
+<div class='testimonials-container'>
+  {% set headContainer = 'testimonials-heading' %}
+  {% set headTextClass = 'black-text text-center' %}
+  {% set headText = 'Testimonials' %}
+
+  {% include '../atoms/_heading.html.twig' %}
+
+  {% set quotes = [
+    ['quote-block', 'Luris at quam at mauris venenatis eleifend. Nullam eleifend odio a pretium dignissim. Aenean non rhoncus quam.', '../images/avatar.png', 'Client Name', 'Position, ORG'],
+    ['quote-block wb-view', 'Inc ut ipsum iaculis, dictum magna id, lacinia ante. Nulla facilisi. Integer lobortis in risus eget volutpat. Donex interdum elit eget quam aliquam sodales. Vestibulum auctor auctor finibus.', '../images/avatar.png', 'Client Name', 'Position, ORG'],
+    ['quote-block wb-view', 'Luris id bibendum est. Proin dapibus sollicitudin iaculis.Maecenas condimentum maximus laoreet. In maximus euismod egestas.', '../images/avatar.png', 'Client Name', 'Position, ORG']
+  ] %}
+  {% set quoteClass = 'testimonial-quote-list' %}
+
+  {% include '../molecules/_quote_collection.html.twig' %}
+</div>

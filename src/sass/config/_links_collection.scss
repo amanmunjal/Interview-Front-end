@@ -1,0 +1,12 @@
+.menu-list {
+  float: left;
+  @media (max-width: 785px) {
+    padding-left: 0px;
+  }
+}
+
+.footer-link-list {
+  float: right;
+  margin: 0px;
+  padding-left: 10px;
+}

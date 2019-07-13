@@ -1,0 +1,13 @@
+.testimonials-container {
+  padding: 80px;
+  background-color: $lightGrey;
+  @media (max-width: 767px) {
+    padding: 80px 15px;
+  }
+  .testimonials-heading {
+    h1 {
+      font-weight: 500;
+      padding-bottom: 20px;
+    }
+  }
+}

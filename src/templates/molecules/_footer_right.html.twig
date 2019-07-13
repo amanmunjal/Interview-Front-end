@@ -1,0 +1,15 @@
+<div class='footer-icon'>
+  {% set textClass = 'footer-right-text grey-text small-text' %}
+  {% set text = 'Follow us on:' %}
+  {% include '../atoms/_text.html.twig' %}
+
+  {% set links = [
+    ['social-link', '/facebook', '../../images/facebook.png', true],
+    ['social-link', '/linkedin', '../../images/linkedin.png', true],
+    ['social-link', '/twitter', '../../images/twitter.png', true],
+    ['social-link', '/email', '../../images/email.png', true]
+  ] %}
+  {% set ulClass = 'footer-link-list' %}
+
+  {% include './_links_collection.html.twig' %}
+</div>

@@ -1,0 +1,14 @@
+<div class={{ quoteClass }}>
+  {% for quote in quotes %}
+    {% set quoteBlock = quote[0] %}
+    <div class='{{ quoteBlock }}'>
+      {% set quoteText = quote[1] %}
+      {% include '../atoms/_quote.html.twig' %}
+
+      {% set authorAvatar = quote[2] %}
+      {% set authorName = quote[3] %}
+      {% set authorPosition = quote[4] %}
+      {% include '../atoms/_author.html.twig' %}
+    </div>
+  {% endfor %}
+</div>

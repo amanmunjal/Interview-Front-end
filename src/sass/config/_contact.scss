@@ -1,0 +1,32 @@
+.contact-container {
+  background-image: url('../images/get-in-touch.png');
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-size: cover;
+  @media (max-width: 767px) {
+    padding: 80px 20px;
+    button {
+      margin-top: 30px;
+    }
+  }
+  h1 {
+    width: 430px;
+    margin: 0 auto;
+    font-weight: 300;
+    @media (max-width: 767px) {
+      width: 100%;
+      padding: 0px 30px;
+    }
+  }
+  p {
+    line-height: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    @media (max-width: 767px) {
+      padding: 0px 20px;
+      line-height: 25px;
+    }
+  }
+}

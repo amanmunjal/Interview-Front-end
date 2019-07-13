@@ -1,0 +1,17 @@
+.hero-container {
+  background-image: url('../images/hero-bg.png');
+  height: calc(100vh - 70px);
+  min-height: 670px;
+  padding-top: 140px;
+  background-size: cover;
+  background-position: 47% top;
+  h1 {
+    width: 430px;
+    margin: 0 auto;
+    font-weight: 300;
+    @media (max-width: 767px) {
+      width: 100%;
+      padding: 0px 30px;
+    }
+  }
+}
